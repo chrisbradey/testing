@@ -2,11 +2,18 @@ console.log('hello')
 myVar = '5'
 console.log(myVar)
 
- thicc = '3'
+ var2 = '3'
 
- if(thicc>myVar){
+ if(var2=>3){
      console.log('ezpz')
  }
  else{
      console.log('not ezpz')
  }
+
+
+if(myVar == 5){
+    var2 = 4
+    myVar++
+}
+console.log(myVar, var2)
